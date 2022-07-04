@@ -1,0 +1,71 @@
+/*RS CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 12%;
+}
+:root{
+    --text-color: #333;
+    --color: rgb(255, 80, 0);
+    --text-size:1.4rem;
+}
+/* header */
+h1{
+    padding: 20px 20px 10px 20px;
+    font-size: 3rem;
+    line-height: 4rem;
+    border: 3px solid #ccc;
+    margin-bottom: -8px;
+    animation-name: bordercolor;
+    animation-duration: 6s;
+    animation-iteration-count:infinite;
+}
+@keyframes bordercolor{
+    0%   {border-color: rgb(4, 0, 255);}
+    25%  {border-color: rgb(83, 0, 139);}
+    50%  {border-color: rgb(255, 0, 238);}
+    100% {border-color: rgb(46, 2, 17);}
+}
+h2{
+    padding-bottom: 20px;
+}
+h3{
+    font-size: 2rem;
+    padding: 10px 0;
+    background: #30dabf;
+    padding-left: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    color: floralwhite;
+}
+h4{
+    margin-top: 10px;
+}
+.sticky{
+    position: fixed;
+    /* border: 1px solid #30dabf; */
+    right: 12%;
+    bottom: 100px;
+    z-index: 1;
+    background: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+}
+.sticky img{
+    width: 20px;
+    height: 20px;
+}
+.sticky a{
+    text-decoration: none;
+    color: #30dabf;
+}
