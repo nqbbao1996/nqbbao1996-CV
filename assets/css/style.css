@@ -3,7 +3,7 @@
 }
 .header img{
     width: 20%;
-    padding: 20px 25px;
+    padding: 20px 20px;
     border-radius: 50%;
     margin-left: 50px;
 }
@@ -28,7 +28,7 @@ margin: auto;
 }
 .banner{
     width: 40px;
-    height: 398px;
+    height: 375px;
     background: #30dabf;
     position: absolute;
     top:0;
@@ -58,6 +58,10 @@ margin: auto;
 .info__table{
     width: 100%;
     margin-right: 40px;
+}
+.info__table a{
+    text-decoration: none;
+    color: inherit;
 }
 .info__table tr{
     padding: 10px 0;
@@ -135,26 +139,23 @@ margin: auto;
 li{
     margin-left: 14px;
 }
+.product{
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: left;
+}
+.product a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    margin: 8px 4px;
+}
+.product span{
+    text-decoration: underline;
+}
 .boxinfo{
     border-radius: 5px;
     box-shadow: 1px 1px 2px 2px #30dabf;
-}
-/* product */
-.product__head{
-    text-align: center;
-    font-size: 3rem;
-    line-height: 4rem;
-}
-.product__img{
-    position: relative;
-}
-.product__img div{
-width: 48%;
-display: inline-block;
-}
-.product__img div:last-child{
-position: absolute;
-}
-.product img{
-    width: 100%;
 }
