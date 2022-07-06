@@ -28,7 +28,7 @@ margin: auto;
 }
 .banner{
     width: 40px;
-    height: 375px;
+    height: 350px;
     background: #30dabf;
     position: absolute;
     top:0;
@@ -53,8 +53,12 @@ margin: auto;
     margin-top: 20px;
 }
 .info__intro p{
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
+.info__intro span{
+    margin-left: 46px;
+}
+
 .info__table{
     width: 100%;
     margin-right: 40px;
